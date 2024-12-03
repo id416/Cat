@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://06a4d8fc-6211-4b31-a4de-474d7eed74b1",
+    "@type": "sc:Manifest",
+    "label": "B.1.10",
+    "metadata": [],
+    "description": [
+        {
+            "@value": "Glossed Gospel of St Matthew etc",
+            "@language": "en"
+        }
+    ],
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Given by Abp Whitgift: arms on cover",
+    "sequences": [
+        {
+            "@id": "http://7f37dbf0-6e27-49e5-b359-7d13c09e07e7",
+            "@type": "sc:Sequence",
+            "label": [
+                {
+                    "@value": "Normal Sequence",
+                    "@language": "en"
+                }
+            ],
+            "canvases": [
+                {
+                    "@id": "http://740d8426-9515-4909-91cd-3416fe4941ae",
+                    "@type": "sc:Canvas",
+                    "label": "Empty canvas",
+                    "height": 3151,
+                    "width": 4108,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "http://03cf0d31-216e-4c82-a814-25ea19ac4dd9",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://mss-cat.trin.cam.ac.uk:8183/iiif/2/B.1.10%2F006_B.1.10_f003v-f004r.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://mss-cat.trin.cam.ac.uk:8183/iiif/2/B.1.10%2F006_B.1.10_f003v-f004r.jp2",
+                                    "profile": [
+                                        "http://iiif.io/api/image/2/level2.json",
+                                        {
+                                            "formats": [
+                                                "jpg",
+                                                "tif",
+                                                "gif",
+                                                "png"
+                                            ],
+                                            "maxArea": 12944308,
+                                            "qualities": [
+                                                "bitonal",
+                                                "default",
+                                                "gray",
+                                                "color"
+                                            ],
+                                            "supports": [
+                                                "regionByPx",
+                                                "sizeByW",
+                                                "sizeByWhListed",
+                                                "cors",
+                                                "regionSquare",
+                                                "sizeByDistortedWh",
+                                                "canonicalLinkHeader",
+                                                "sizeByConfinedWh",
+                                                "sizeByPct",
+                                                "jsonldMediaType",
+                                                "regionByPct",
+                                                "rotationArbitrary",
+                                                "sizeByH",
+                                                "baseUriRedirect",
+                                                "rotationBy90s",
+                                                "profileLinkHeader",
+                                                "sizeByForcedWh",
+                                                "sizeByWh",
+                                                "mirroring"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "height": 3151,
+                                "width": 4108
+                            },
+                            "on": "http://740d8426-9515-4909-91cd-3416fe4941ae"
+                        }
+                    ],
+                    "related": ""
+                }
+            ]
+        }
+    ],
+    "structures": [],
+    "logo": ""
+}
