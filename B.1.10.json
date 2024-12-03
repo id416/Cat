@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "http://06a4d8fc-6211-4b31-a4de-474d7eed74b1",
     "@type": "sc:Manifest",
-    "label": "B.1.10",
+    "label": "B.1.10 (not my cat)",
     "metadata": [],
     "description": [
         {
